@@ -26,12 +26,7 @@ window.addEventListener(
                         }
                     )
                     currLink.classList.add("active")
-
-                    
                 }
-
-
-
             }
 
         )
