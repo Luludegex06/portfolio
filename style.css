@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:wght@300;400;500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+.body{
+    height: 5000;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    color: transparent;
+    font-family: "Ubuntu", sans-serif;
+}
+.navbar.sticky{
+    padding: 30px 0;
+    background:black;
+
+    
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    
+}
+.navbar .logo a span{
+    color:rgb(37, 103, 134);
+
+}
+
+.navbar .menu li{
+    list-style: none; 
+    display: inline-block;
+
+}
+
+.navbar .menu li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+    
+}
+.navbar .menu li a.active   {
+    color: rgb(37, 103, 134);
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+    
+}
+.navbar .menu li a:hover{
+    color:rgb(37, 103, 134);
+}
+
+.menu-btn{
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+    display: none;
+}
+.home{
+    display: flex;
+    background: url("./images/background.jpg") no-repeat center;
+    background-size: cover ;
+    background-position: center;
+    height: 100vh;
+    color: azure;
+    min-height: 500px;
+    font-family: "Ubuntu", sans-serif;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size: 27px
+}.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.home .home-content .text-3 span{
+    color: rgb(37, 103, 134);
+    font-weight: 500;
+}
+.home .home-content a{
+    display: inline-block;
+    background: rgb(37, 103, 134);
+    color: white;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid rgb(37, 103, 134);
+}
+.home .home-content a:hover{
+    color: white;
+    background: none;
+}
+.section{
+    padding: 100px 0; 
+}
+.about{
+    font-family: "Poppins", sans-serif;
+    background: black;
+}
+
+.about-content{
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
+}
+.about-content div{
+    display: block;
+    justify-content: space-around;
+    width: 400px;
+    height: 300px
+}
+
+.about-content div img {
+    width: 100px;
+    height: 100px;
+}
+#contact{
+    height: 1000px;
+}
+
+
+
+.hidden {
+    visibility: hidden;
+}
+
+
+
+
