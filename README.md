@@ -1,7 +1,7 @@
 # Portfolio
 Bienvenue sur la toute première version de mon portfolio.
 
-La structure (encore trés primitive pour l'instant) se compose de la manière suivante :
+La structure (encore très primitive pour l'instant) se compose de la manière suivante :
 - Single page HTML + CSS + JavaScript
 - Animation du menu de navigation en JavaScript
 
@@ -13,5 +13,6 @@ Difficultés rencontrées
 Projets d'évolution
 - Ajouter un caroussel de présentation des skills
 - Créer un formulaire de contact
+- Téléchargement de CV
 
 Pour accéder au site, cliquez [ici](https://luludegex06.github.io/portfolio/)
